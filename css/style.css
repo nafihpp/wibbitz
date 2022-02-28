@@ -1,0 +1,1668 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  vertical-align: baseline;
+  background: transparent;
+  font-weight: normal;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+}
+ol,
+ul {
+  list-style: none;
+}
+del {
+  text-decoration: line-through;
+}
+body {
+  font-family: GT-Eesti, Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  min-width: 320px;
+  font-weight: 500;
+}
+input,
+textarea,
+select {
+  font-family: GT-Eesti, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+a {
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+}
+.thumb {
+  display: block;
+}
+.thumb img {
+  display: block;
+  width: 100%;
+}
+p {
+  line-height: 1.6em;
+  font-size: 16px;
+  font-family: GT-Eesti, Arial;
+  font-weight: 500;
+  color: rgb(0, 0, 0);
+}
+.hidden {
+  display: none;
+}
+br.clear {
+  clear: both;
+  line-height: 0;
+}
+.wrapper {
+  width: 90%;
+  margin: 0px auto;
+  max-width: 1280px;
+}
+.flex-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+@font-face {
+  font-family: GT-Eesti;
+  src: url("../fonts/GT-Eesti-Pro-Text-Light.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Light.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: GT-Eesti;
+  src: url("../fonts/GT-Eesti-Pro-Text-Regular.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Regular.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: GT-Eesti;
+  src: url("../fonts/GT-Eesti-Pro-Text-Medium.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Medium.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: GT-Eesti;
+  src: url("../fonts/GT-Eesti-Pro-Text-Bold.woff") format("woff"),
+    url("../fonts/GT-Eesti-Pro-Text-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+::placeholder {
+  color: rgb(155, 155, 155);
+  opacity: 1;
+}
+.wrapper-new {
+  width: 90%;
+  margin: 0px auto;
+}
+hr {
+  margin-top: 30px;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  border-image: initial;
+  border-top: 1px dotted black;
+  height: 1px;
+  width: 50%;
+}
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+header div.main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.main {
+}
+header div.main div.logo {
+}
+header div.main div.logo a.button {
+}
+header div.main div.logo a.button img {
+  display: block;
+  width: 100%;
+}
+header div.main ul.middle {
+  display: flex;
+  align-items: center;
+}
+header div.main ul.middle li {
+  margin-right: 20px;
+}
+header div.main ul.middle li a.button {
+}
+header div.main ul.right {
+  display: flex;
+  align-items: center;
+}
+header div.main ul.right li {
+  margin-right: 20px;
+}
+header div.main ul.right li a.button-1 {
+  display: inline-block;
+}
+header div.main ul.right li a.button {
+}
+header div.main ul.right li a.button-1 {
+  background: rgb(255, 228, 218);
+  padding: 10px;
+  border-radius: 10px;
+  color: rgb(255, 131, 90);
+  font-weight: 600;
+}
+#spotlight {
+}
+#spotlight div.major {
+  display: flex;
+}
+#spotlight div.major div.left {
+  padding-top: 100px;
+}
+#spotlight div.major div.left h1.herohead {
+  font-weight: 700;
+  font-size: 55px;
+  margin-bottom: 50px;
+  max-width: 50%;
+}
+#spotlight div.major div.left p {
+  width: 61%;
+  font-weight: 600;
+  margin-bottom: 50px;
+  max-width: 50%;
+}
+#spotlight div.major div.left div.search input {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 13px;
+  border-radius: 10px;
+  position: relative;
+}
+#spotlight div.major div.left div.search a.button {
+  background: rgb(0, 86, 251);
+  padding: 12px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 18%;
+}
+#spotlight div.major div.right {
+  position: relative;
+}
+#spotlight div.major div.right div.wallpaper {
+  padding-top: 37px;
+  width: 100%;
+}
+#spotlight div.major div.right div.wallpaper img {
+  display: block;
+  width: 100%;
+}
+#spotlight div.major div.right div.curve {
+  position: absolute;
+  left: 34%;
+  top: 3%;
+}
+#spotlight div.major div.right div.curve img {
+  display: block;
+  width: 100%;
+}
+#spotlight div.major div.right div.play {
+  position: absolute;
+  right: 39%;
+  top: -3%;
+  background: rgb(255, 120, 75);
+  padding: 23px;
+  border-radius: 50px;
+  width: 11%;
+}
+#spotlight div.major div.right div.play img {
+  display: block;
+  width: 100%;
+}
+#spotlight div.creator {
+  margin-top: 8%;
+}
+#spotlight div.creator h3 {
+  text-align: center;
+}
+#spotlight div.creator ul.brands {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+#boost {
+}
+#boost div.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12%;
+}
+#boost div.content div.left {
+  width: 60%;
+}
+#boost div.content div.left div.img_container {
+  width: 85%;
+}
+#boost div.content div.left div.img_container img {
+  display: block;
+  width: 100%;
+}
+#boost div.content div.right {
+  width: 38%;
+}
+#boost div.content div.right div.img_container_top_one {
+  width: 12%;
+  background: rgb(255, 120, 75);
+  padding: 11px;
+  border-radius: 17px;
+  display: flex;
+  justify-content: center;
+}
+#boost div.content div.right div.img_container_top_one img {
+}
+#boost div.content div.right div.img_container_top_two {
+  width: 13%;
+  background: rgb(216, 219, 41);
+  padding: 11px;
+  border-radius: 17px;
+  display: flex;
+  justify-content: center;
+}
+#boost div.content div.right div.img_container_top_two img {
+}
+#boost div.content div.right div.img_container_top_three {
+  width: 13%;
+  background: rgb(60, 210, 120);
+  padding: 13px;
+  border-radius: 17px;
+  display: flex;
+  justify-content: center;
+}
+#boost div.content div.right div.img_container_top_three img {
+}
+#boost div.content div.right div.img_container_top img {
+}
+#boost div.content div.right h4 {
+  font-weight: 800;
+  font-size: 41px;
+  margin-top: 13px;
+}
+#boost div.content div.right h6 {
+  font-weight: 600;
+  padding: 29px 0px;
+  font-size: 17px;
+  width: 81%;
+}
+#boost div.content div.right a {
+  background: blue;
+  padding: 12px;
+  width: 26%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  display: block;
+  border-radius: 11px;
+}
+#boost div.content div.right p {
+  padding: 92px 76px 7px 0px;
+  color: silver;
+}
+#boost div.content div.right span {
+  color: silver;
+}
+#boost div.content div.right span b {
+  font-weight: 900;
+}
+#boost div.content div.img_container_bottom {
+  width: 15%;
+  margin-top: 18px;
+}
+#boost div.content div.img_container_bottom img {
+}
+#final {
+  background: rgb(255, 255, 255);
+}
+#final div.left {
+  margin-top: 100px;
+}
+#final div.final-right {
+  margin-top: 100px;
+  width: 50%;
+}
+#final div.final-right div.image-paint {
+  background: rgb(61, 210, 120);
+  width: 14%;
+  height: 12%;
+  border-radius: 50%;
+  display: flex;
+  padding: 16px;
+}
+#final div.final-right div.image-paint img {
+  display: block;
+  width: 100%;
+}
+#final div.final-right h1 {
+  font-weight: 700;
+  font-size: 60px;
+  margin-bottom: 40px;
+}
+#final div.final-right p.para {
+  font-size: 30px;
+}
+#final div.final-right a.button {
+  margin-top: 20px;
+  background: rgb(0, 86, 251);
+  padding: 13px 15px;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+}
+#video {
+  margin-top: 100px;
+}
+#video ul.videomain {
+  display: flex;
+}
+#video ul.videomain li {
+  position: relative;
+  width: 33.33%;
+  border-radius: 34px;
+}
+#video ul.videomain li div.review {
+  width: 90%;
+}
+#video ul.videomain li img {
+  display: block;
+  width: 100%;
+  border-radius: 8px;
+}
+#video ul.videomain li div.play {
+  position: absolute;
+  top: 2%;
+  left: 73.77%;
+  background: rgb(255, 255, 255);
+  padding: 28px;
+  display: flex;
+  justify-content: center;
+  border-radius: 60px;
+}
+#video ul.videomain li div.play img {
+  display: block;
+  width: 100%;
+}
+#video ul.videomain li div.play2 {
+  position: absolute;
+  top: 3%;
+  left: 74%;
+  background: rgb(255, 255, 255);
+  padding: 28px;
+  display: flex;
+  justify-content: center;
+  border-radius: 60px;
+}
+#video ul.videomain li div.play2 img {
+  display: block;
+  width: 100%;
+}
+#video ul.videomain li div.play3 {
+  position: absolute;
+  top: 3%;
+  left: 74%;
+  background: rgb(255, 255, 255);
+  padding: 28px;
+  display: flex;
+  justify-content: center;
+  border-radius: 60px;
+}
+#video ul.videomain li div.play3 img {
+  display: block;
+  width: 100%;
+}
+#video ul.videomain li div.log {
+  background: rgb(255, 255, 255);
+  width: 24%;
+  position: absolute;
+  top: 59%;
+  left: 23px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 9px 19px;
+}
+#video ul.videomain li div.log img {
+  display: block;
+  width: 50%;
+}
+#video ul.videomain li div.log2 {
+  width: 34%;
+  top: 60%;
+  left: 5%;
+  background: rgb(255, 255, 255);
+  padding: 4px 14px;
+  position: absolute;
+  border-radius: 10px;
+}
+#video ul.videomain li div.log2 img {
+  display: block;
+  width: 100%;
+}
+#video ul.videomain li div.log3 {
+  padding: 21px 31px;
+  position: absolute;
+  top: 59%;
+  left: 6%;
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+#video ul.videomain li div.log3 img {
+  display: block;
+  width: 100%;
+}
+#feedback {
+  padding: 6% 0px;
+}
+#feedback div.people {
+  display: flex;
+  justify-content: space-between;
+}
+#feedback div.people div.people-1 {
+  width: 45%;
+  position: relative;
+}
+#feedback div.people div.people-1 img {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+}
+#feedback div.people div.hoven {
+  background: rgb(255, 255, 255);
+  width: 22%;
+  height: 14%;
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  border-radius: 10px;
+}
+#feedback div.people div.hoven img {
+  display: block;
+  width: 100%;
+}
+#feedback div.people div.people-2 {
+  width: 45%;
+  position: relative;
+}
+#feedback div.people div.people-2 img {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+}
+#feedback div.people div.people-2 div.bet {
+  background: rgb(255, 255, 255);
+  width: 22%;
+  height: 14%;
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  padding: 0px 1%;
+  display: flex;
+  border-radius: 10px;
+}
+#feedback div.people div.people-2 div.bet img {
+  display: block;
+  width: 100%;
+}
+#marketing {
+  background: rgb(248, 248, 248);
+  padding: 6% 0px;
+}
+#marketing div.headline-market {
+}
+#marketing div.headline-market h4 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+}
+#marketing ul.marketing-main {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#marketing ul.marketing-main li {
+  width: 30%;
+  padding: 60px;
+  border-right: 1px dotted rgb(0, 0, 0);
+}
+#marketing ul.marketing-main li:nth-child(3n) {
+  border-right: none;
+}
+#marketing ul.marketing-main li img {
+  display: block;
+  width: 100%;
+}
+#marketing ul.marketing-main li h5 {
+  text-align: center;
+  font-weight: 600;
+  font-size: 25px;
+}
+#marketing ul.marketing-main li p.market-para {
+  text-align: center;
+}
+#marketing section.marketing-foot {
+  margin-top: 100px;
+  position: relative;
+}
+#marketing section.marketing-foot div.bar {
+  width: 62%;
+  padding: 38px;
+  background: rgb(208, 223, 255);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+#marketing section.marketing-foot div.bar div.container {
+  background: rgb(255, 255, 255);
+  width: 6%;
+  padding: 32px 13px;
+  position: absolute;
+  top: -40%;
+  left: 26%;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+#marketing section.marketing-foot div.bar div.container img {
+  display: block;
+  width: 33%;
+}
+#marketing section.marketing-foot div.bar h6 {
+  display: inline-block;
+  font-size: 26px;
+  font-weight: 600;
+  width: 118%;
+}
+#marketing section.marketing-foot div.wrapper-new {
+  display: flex;
+  justify-content: center;
+}
+#marketing section.marketing-foot div.bar a.button {
+  background: rgb(0, 86, 251);
+  border-radius: 12px;
+  padding: 13px;
+  width: 162px;
+  color: rgb(255, 255, 255);
+  display: inline-block;
+}
+#studio {
+  padding-top: 2%;
+}
+#studio h1 {
+  text-align: center;
+  font-size: 41px;
+  width: 39%;
+  margin: 0px auto;
+  font-weight: 600;
+}
+#studio ul {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7%;
+}
+#studio ul li {
+  width: 30%;
+  position: relative;
+}
+#studio ul li div.first {
+  background: rgb(208, 222, 255);
+  padding-bottom: 71%;
+  padding-top: 62px;
+}
+#studio ul li div.first div.img_container {
+  background: rgb(255, 255, 255);
+  padding: 6%;
+  width: 20%;
+  margin: 0px auto;
+  border-radius: 30px;
+}
+#studio ul li div.first div.img_container img {
+  display: block;
+  width: 100%;
+}
+#studio ul li div.first h4 {
+  text-align: center;
+  font-weight: 700;
+  margin: 26px 0px;
+}
+#studio ul li div.first p {
+  width: 58%;
+  margin: 0px auto;
+  text-align: center;
+}
+#studio ul li div.first a {
+  display: block;
+  text-align: center;
+  background: blue;
+  width: 35%;
+  padding: 12px;
+  margin: 39px auto;
+  border-radius: 9px;
+  color: rgb(255, 255, 255);
+}
+#studio ul li div.first div.img_container_bottom_one {
+  position: absolute;
+  top: 63%;
+}
+#studio ul li div.first div.img_container_bottom_one img {
+}
+#studio ul li div.second {
+  background: rgb(254, 244, 215);
+  padding-bottom: 71%;
+  padding-top: 62px;
+}
+#studio ul li div.second div.img_container {
+  background: rgb(255, 255, 255);
+  padding: 6%;
+  width: 20%;
+  margin: 0px auto;
+  border-radius: 30px;
+}
+#studio ul li div.second div.img_container img {
+  display: block;
+  width: 100%;
+}
+#studio ul li div.second h4 {
+  text-align: center;
+  font-weight: 700;
+  margin: 26px 0px;
+}
+#studio ul li div.second p {
+  width: 58%;
+  margin: 0px auto;
+  text-align: center;
+}
+#studio ul li div.second a {
+  display: block;
+  text-align: center;
+  background: rgb(250, 250, 9);
+  width: 35%;
+  padding: 12px;
+  margin: 39px auto;
+  border-radius: 9px;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 20px;
+}
+#studio ul li div.second div.img_container_bottom_two {
+  position: absolute;
+  top: 63%;
+}
+#studio ul li div.second div.img_container_bottom_two img {
+  display: block;
+  width: 100%;
+}
+#studio ul li div.third {
+  background: rgb(255, 228, 219);
+  padding-bottom: 71%;
+  padding-top: 62px;
+}
+#studio ul li div.third div.img_container {
+  background: rgb(255, 255, 255);
+  padding: 6%;
+  width: 20%;
+  margin: 0px auto;
+  border-radius: 30px;
+}
+#studio ul li div.third div.img_container img {
+  display: block;
+  width: 100%;
+}
+#studio ul li div.third h4 {
+  text-align: center;
+  font-weight: 700;
+  margin: 26px 0px;
+}
+#studio ul li div.third p {
+  width: 58%;
+  margin: 0px auto;
+  text-align: center;
+}
+#studio ul li div.third a {
+  display: block;
+  text-align: center;
+  background: orange;
+  width: 35%;
+  padding: 12px;
+  margin: 39px auto;
+  border-radius: 9px;
+  color: rgb(255, 255, 255);
+}
+#studio ul li div.third div.img_container_bottom_three {
+  position: absolute;
+  top: 62%;
+}
+#studio ul li div.third div.img_container_bottom_three img {
+  display: block;
+  width: 100%;
+}
+#video_resources {
+  padding-top: 100px;
+}
+#video_resources h1 {
+  font-size: 90px;
+  font-weight: 700;
+  width: 84%;
+}
+#video_resources ul {
+  display: flex;
+  justify-content: center;
+}
+#video_resources ul li {
+}
+#video_resources ul li div.img_container {
+  width: 80%;
+}
+#video_resources ul li div.img_container img {
+  display: block;
+  width: 100%;
+}
+#video_resources ul li p {
+  margin: 11px 0px;
+}
+#video_resources ul li h4 {
+  font-weight: 600;
+  width: 74%;
+}
+#video_resources ul li p {
+}
+#video_resources ul li a {
+  display: block;
+  width: 19%;
+  margin: 11px 0px;
+  border-bottom: 1px solid;
+}
+#video_resources a.button {
+  display: block;
+  background: blue;
+  width: 16%;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  color: rgb(255, 255, 255);
+}
+#form {
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+#form section.wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7%;
+}
+#form div.left {
+  width: 40%;
+}
+#form div.left h1 {
+  font-size: 40px;
+  width: 56%;
+  font-weight: 700;
+}
+#form div.left p {
+  color: silver;
+  margin: 23px 0px;
+  font-size: 13px;
+}
+#form div.left h4 {
+  margin: 27px 0px;
+}
+#form div.left h3 {
+  font-size: 15px;
+  font-style: italic;
+}
+#form div.left h6 {
+  margin-top: 17px;
+}
+#form div.left h5 {
+  font-size: 11px;
+  color: silver;
+  margin-bottom: 14px;
+}
+#form div.left div.profile {
+}
+#form div.left div.profile ul {
+  width: 90%;
+  display: flex;
+}
+#form div.left div.profile ul li {
+  overflow: hidden;
+  border-radius: 50%;
+  margin-right: 10px;
+  height: 38px;
+}
+#form div.left div.profile ul li:hover {
+  outline: rgb(255, 121, 75) solid 3px;
+}
+#form div.left div.profiles ul li img {
+  display: block;
+  width: 100%;
+}
+#form div.left div.logo {
+  margin-top: 50px;
+}
+#form div.left div.logo ul {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#form div.left div.logo ul li {
+}
+#form div.left div.logo ul li img {
+}
+#form div.right {
+  width: 49%;
+  background: rgb(255, 255, 255);
+  margin: 0px 81px 37px;
+  padding: 6%;
+  border-radius: 12px;
+}
+#form div.right h1 {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  font-weight: 800;
+}
+#form div.right form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 7%;
+}
+#form div.right form input {
+  width: 49%;
+  border: 1px solid rgb(240, 240, 240);
+  padding: 16px 25px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+#form div.right form input[type="email"] {
+}
+#form div.right form input[type="text"] {
+}
+#form div.right form input[type="checkbox"] {
+  margin-top: 1%;
+  width: 3%;
+}
+#form div.right form select {
+  border: 1px solid rgb(240, 240, 240);
+  padding: 15px 25px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  width: 49%;
+}
+#form div.right form p {
+  width: 95%;
+  font-size: 14px;
+}
+#form div.right form p a {
+}
+#form div.right a.button {
+  background: blue;
+  display: block;
+  text-align: center;
+  width: 92%;
+  padding: 5%;
+  color: rgb(255, 255, 255);
+  margin: 25px auto 0px;
+  border-radius: 10px;
+}
+footer {
+  padding-top: 30px;
+}
+footer div.left ul {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  width: 42%;
+}
+footer div.left h1 {
+  font-size: 27px;
+  font-weight: 600;
+  max-width: 33%;
+}
+footer div.left ul li {
+  width: 10%;
+  margin-right: 16px;
+  background: rgb(178, 178, 178);
+}
+footer div.left ul li :nth-child(4) {
+  width: 10px;
+}
+footer div.left ul li img {
+  display: block;
+  width: 100%;
+}
+footer div.left div.lang {
+  margin-top: 20px;
+}
+footer div.left div.lang p {
+  display: inline-block;
+}
+footer div.right {
+  display: flex;
+  width: 78%;
+}
+footer div.right div.solutions ul div.img_container {
+  display: inline-block;
+}
+footer div.right div.use {
+}
+footer div.right div.use ul {
+}
+footer div.right div.use ul li {
+  margin-bottom: 7px;
+}
+footer div.right div.use a.button-4 {
+  font-weight: 700;
+}
+footer div.right div.use {
+}
+footer div.right ul li a {
+  font-weight: 400;
+}
+footer div.right div.solutions {
+  margin-right: 82px;
+}
+footer div.right div.solutions ul {
+}
+footer div.right div.solutions ul li {
+  margin-bottom: 7px;
+}
+footer div.right div.solutions ul li a {
+}
+footer div.right div.solutions a.button-4 {
+  font-weight: 700;
+}
+footer div.right div.resources ul {
+}
+footer div.right div.resources ul li {
+  margin-bottom: 7px;
+}
+footer div.right div.company ul {
+  margin-left: 10px;
+}
+footer div.right div.company ul li {
+  margin-bottom: 7px;
+}
+footer div.right div.use ul li a.button-5 {
+  font-weight: 700;
+}
+footer div.right div.resources ul li a.button-6 {
+  font-weight: 700;
+}
+footer div.right div.company ul li a.button-8 {
+  font-weight: 700;
+}
+footer section.wrapper-final {
+  width: 90%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-between;
+}
+footer div.lang {
+}
+footer div.lang div.lang_img {
+}
+footer div.lang div.lang_img div.img_container {
+  width: 3%;
+  display: inline-block;
+  border-radius: 50px;
+}
+footer div.lang div.lang_img div.img_container p {
+  display: inline-block;
+}
+footer div.lang div.lang_img div.img_container img {
+  width: 100%;
+  display: block;
+}
+@media (max-width: 1440px) {
+  div.major div.right div.play {
+    position: absolute;
+    right: 39%;
+    top: -1%;
+    padding: 20px;
+    border-radius: 50px;
+    width: 10%;
+  }
+  #spotlight div.major div.left div.search a.button {
+    padding: 12px;
+    border-radius: 10px;
+    position: absolute;
+    left: 17%;
+  }
+  #video ul.videomain {
+    display: flex;
+    position: relative;
+  }
+  #video ul.videomain li {
+    position: relative;
+  }
+  #video ul.videomain li div.review {
+    width: 90%;
+  }
+  #video ul.videomain li img {
+    display: block;
+    width: 100%;
+  }
+  #video ul.videomain li div.play {
+    position: absolute;
+    top: 3%;
+    left: 36.77%;
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    border-radius: 60px;
+  }
+  #video ul.videomain li div.play img {
+    display: block;
+    width: 100%;
+  }
+  #video ul.videomain li div.log {
+    width: 7%;
+    position: absolute;
+    top: 56%;
+    left: 23px;
+  }
+  #video ul.videomain li div.play2 {
+    position: absolute;
+    top: 2%;
+    left: 55%;
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    border-radius: 60px;
+  }
+  #video ul.videomain li div.play2 img {
+    display: block;
+    width: 100%;
+  }
+  #video ul.videomain li div.play3 {
+    position: absolute;
+    top: 3%;
+    left: 70.5%;
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    border-radius: 60px;
+  }
+  #video ul.videomain li div.play3 img {
+    display: block;
+    width: 100%;
+  }
+  #video ul.videomain li div.log3 {
+    padding: 11px 19px;
+    top: 50%;
+    left: 68%;
+  }
+  #marketing section.marketing-foot div.bar a.button {
+    padding: 13px;
+    width: 171px;
+  }
+  #video ul.videomain li div.log2 {
+    width: 11%;
+    top: 51%;
+    left: 34%;
+  }
+  #video ul.videomain li div.log {
+    width: 8%;
+    top: 52%;
+    left: 23px;
+  }
+  #marketing section.marketing-foot div.bar div.container {
+    width: 8%;
+    padding: 32px 13px;
+    top: -32%;
+    left: 26%;
+  }
+  #marketing section.marketing-foot div.bar h6 {
+    font-size: 22px;
+  }
+  footer div.left h1 {
+    font-size: 20px;
+  }
+  footer div.right div.solutions {
+    width: 137px;
+  }
+  #form div.left div.logo ul {
+    width: 135%;
+  }
+}
+@media (max-width: 1280px) {
+  #spotlight div.major div.left div.search a.button {
+    left: 20%;
+  }
+  footer div.right div.solutions {
+    width: 162px;
+  }
+  #form div.right {
+    margin: -3px 50px 37px;
+  }
+  footer div.left h1 {
+    max-width: 39%;
+  }
+  header div.main ul.right {
+    margin-left: 23px;
+  }
+  header div.main div.logo a.button {
+    margin-right: 33px;
+  }
+}
+@media (max-width: 1050px) {
+  header div.main ul.right li a.button-1 {
+    width: 113%;
+  }
+  #spotlight div.major div.right div.play {
+    right: 26%;
+    top: -2%;
+    width: 16%;
+  }
+  #spotlight div.major div.left div.search a.button {
+    left: 25%;
+  }
+  #boost div.content {
+    flex-wrap: wrap;
+  }
+  #video_resources h1 {
+    font-size: 50px;
+  }
+  #boost div.content div.left div.img_container {
+    width: 100%;
+  }
+  #boost div.content div.right {
+    width: 90%;
+  }
+  #video ul.videomain li div.log {
+    width: 9%;
+    top: 48%;
+  }
+  #video ul.videomain li div.log2 {
+    width: 11%;
+    top: 49%;
+  }
+  #video ul.videomain li div.log3 {
+    top: 47%;
+  }
+  header div.main ul.middle li {
+    margin-right: 13px;
+  }
+  #feedback div.people div.hoven {
+    top: 56%;
+  }
+  #feedback div.people div.people-2 div.bet {
+    top: 56%;
+  }
+  #marketing section.marketing-foot div.bar a.button {
+    width: 176px;
+  }
+  #form div.left div.logo ul {
+    width: 116%;
+    justify-content: space-between;
+  }
+  #form div.right {
+    margin: -4px 12px 21px;
+  }
+  footer div.right div.use ul li {
+    margin-bottom: 5px;
+  }
+  footer div.right div.resources ul li {
+    margin-bottom: 5px;
+  }
+  footer div.right div.company ul li {
+    margin-bottom: 5px;
+  }
+  footer div.left h1 {
+    max-width: 53%;
+  }
+  footer div.left ul {
+    width: 59%;
+  }
+}
+@media (max-width: 980px) {
+  header div.main ul.middle li {
+    margin-right: 6px;
+  }
+  header div.main div.logo {
+  }
+  header div.main div.logo {
+    display: flex;
+    align-items: center;
+  }
+  #spotlight div.major div.right div.play {
+    right: 25%;
+    top: -4%;
+    padding: 15px;
+    width: 14%;
+  }
+  #spotlight div.major div.right div.curve {
+    left: 34%;
+    top: -1%;
+  }
+  #marketing section.marketing-foot div.bar a.button {
+    width: 186px;
+  }
+  #marketing section.marketing-foot div.bar h6 {
+    font-size: 16px;
+  }
+  header div.main ul.right {
+    margin-right: -44px;
+  }
+  header div.main ul.middle {
+    display: flex;
+    align-items: center;
+    width: 138%;
+  }
+  header div.main ul.right li a.button-1 {
+    width: 175%;
+  }
+  header div.main ul.right {
+    margin-right: -3px;
+  }
+  #spotlight div.major div.left div.search a.button {
+    left: 25%;
+  }
+  #boost div.content div.right a {
+    width: 32%;
+  }
+  #boost div.content {
+    flex-wrap: wrap;
+  }
+  #boost div.content div.right {
+    width: 90%;
+  }
+  #video ul.videomain li div.log {
+    width: 12%;
+    top: 37%;
+  }
+  #video ul.videomain li div.log2 {
+    width: 15%;
+    top: 37%;
+  }
+  #boost div.content {
+    flex-wrap: wrap;
+  }
+  #boost div.content div.right {
+    width: 90%;
+  }
+  #video ul.videomain li div.log3 {
+    top: 35%;
+  }
+  #feedback div.people div.hoven {
+    top: 46%;
+  }
+  #feedback div.people div.people-2 div.bet {
+    top: 46%;
+  }
+  #marketing section.marketing-foot div.bar h6 {
+    font-size: 15px;
+  }
+  #marketing section.marketing-foot div.bar div.container {
+    width: 11%;
+    top: -37%;
+  }
+  #marketing section.marketing-foot div.bar a.button {
+    width: 200px;
+  }
+  footer div.left ul {
+    width: 86%;
+  }
+  footer div.left h1 {
+    max-width: 81%;
+  }
+  footer div.lang div.lang_img div.img_container {
+    width: 7%;
+  }
+  #form div.left div.logo ul {
+    width: 142%;
+  }
+  #form div.right {
+    padding: 3%;
+  }
+  #spotlight div.major div.left h1.herohead {
+    font-size: 39px;
+    max-width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  header div.main ul.middle {
+    display: none;
+  }
+  #spotlight div.major div.right div.play {
+    right: 36%;
+    top: -11%;
+    padding: 28px;
+    width: 14%;
+  }
+  #spotlight div.major div.right {
+    margin-top: 20%;
+  }
+  #spotlight div.major {
+    flex-wrap: wrap;
+  }
+  #spotlight div.major div.right {
+  }
+  header div.main ul.right li a.button-1 {
+    width: 102%;
+  }
+  #spotlight div.major div.left div.search a.button {
+    left: 31%;
+  }
+  #video ul.videomain li {
+    width: 100%;
+  }
+  #video ul.videomain {
+    flex-wrap: wrap;
+  }
+  #video ul.videomain li div.play {
+    top: 4%;
+    left: 73%;
+    padding: 32px;
+  }
+  #video ul.videomain li div.log {
+    width: 21%;
+    top: 68%;
+  }
+  #video ul.videomain li div.play2 {
+    top: 4%;
+    left: 73%;
+    padding: 32px;
+  }
+  #video ul.videomain li div.log2 {
+    width: 26%;
+    top: 71%;
+    left: 3%;
+  }
+  #video ul.videomain li div.play3 {
+    top: 3%;
+    padding: 32px;
+  }
+  #video ul.videomain li div.log3 {
+    top: 71%;
+    left: 4%;
+    width: 26%;
+  }
+  #feedback div.people {
+    flex-wrap: wrap;
+  }
+  #feedback div.people div.people-1 {
+    width: 100%;
+  }
+  #feedback div.people div.people-2 {
+    width: 100%;
+  }
+  #boost div.content {
+    flex-wrap: wrap;
+  }
+  #boost div.content div.right {
+    width: 90%;
+  }
+  #marketing ul.marketing-main li {
+    width: 95%;
+  }
+  #marketing section.marketing-foot div.bar div.container {
+    width: 14%;
+    top: -31%;
+  }
+  #studio ul {
+    flex-wrap: wrap;
+  }
+  #studio ul li {
+    margin-top: 70px;
+    width: 100%;
+  }
+  #video_resources ul {
+    flex-wrap: wrap;
+  }
+  #video_resources ul li {
+    margin-top: 20px;
+  }
+  #video_resources ul li div.img_container {
+    width: 100%;
+  }
+  #form section.wrapper {
+    flex-wrap: wrap;
+  }
+  #form div.left {
+    width: 60%;
+  }
+  footer div.left ul {
+    width: 100%;
+  }
+  footer div.left h1 {
+    max-width: 90%;
+  }
+  footer div.lang div.lang_img div.img_container {
+    width: 12%;
+  }
+  #spotlight div.creator ul.brands {
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #spotlight div.creator ul.brands li {
+    text-align: center;
+    width: 100%;
+    margin-top: 20px;
+  }
+  #form div.right {
+    padding: 5%;
+    width: 100%;
+  }
+  #video_resources a.button {
+    width: 26%;
+  }
+  #video ul.videomain li {
+	margin-top: 50px;
+  }
+}
+@media (max-width: 640px) {
+  #video_resources a.button {
+    width: 33%;
+  }
+  footer section.wrapper-final {
+	flex-wrap: wrap;
+  }
+  footer div.lang div.lang_img div.img_container {
+    width: 4%;
+  }
+  #marketing section.marketing-foot div.bar {
+    width: 102%;
+  }
+  #marketing section.marketing-foot div.bar div.container {
+    width: 18%;
+    top: -42%;
+    left: 13%;
+  }
+  #feedback div.people div.people-2 div.bet {
+    top: 56%;
+  }
+  #video ul.videomain li div.log2 {
+    top: 64%;
+    left: 3%;
+  }
+  #video ul.videomain li div.play2 {
+    left: 72%;
+  }
+  #video ul.videomain li div.log {
+    width: 21%;
+    top: 65%;
+  }
+  #video ul.videomain li div.log3 {
+    top: 64%;
+    left: 3%;
+    width: 29%;
+  }
+  #studio h1 {
+    font-size: 25px;
+  }
+  #spotlight div.major div.left div.search a.button {
+    left: 37%;
+  }
+  #spotlight div.major div.right div.play {
+    right: 32%;
+    top: -8%;
+    padding: 30px;
+    width: 17%;
+  }
+  #spotlight div.major div.right div.curve {
+    left: 32%;
+    top: 5%;
+  }
+  #video_resources a.button {
+    width: 46%;
+  }
+  #form div.right {
+    padding: 3%;
+  }
+  #marketing section.marketing-foot div.bar div.container {
+    width: 17%;
+    top: -41%;
+    left: 13%;
+  }
+  #video_resources h1 {
+    font-size: 39px;
+  }
+  #video ul.videomain li {
+	margin-top: 50px;
+  }
+  footer div.left ul {
+    width: 76%;
+  }
+}
+@media (max-width: 480px) {
+	#spotlight div.major div.right div.play {
+		right: 21%;
+		top: -8%;
+		padding: 30px;
+		width: 21%;
+	}
+	header div.main ul.right li a.button-1 {
+		width: 145%;
+	}
+	#spotlight div.major div.left div.search a.button {
+		left: 46%;
+	}
+	#boost div.content div.right a {
+		width: 42%;
+	}
+	#boost div.content div.right div.img_container_top_three img {
+		display: block;
+		width: 100%;
+	}
+	#video ul.videomain li div.play {
+		top: 4%;
+		left: 71%;
+		padding: 25px;
+	}
+	#video ul.videomain li {
+		margin-top: 50px;
+	}
+	#video ul.videomain li div.log {
+		width: 26%;
+		top: 56%;
+	}
+	#marketing section.marketing-foot div.bar div.container {
+		flex-wrap: wrap;
+	}
+	footer div.right {
+		flex-wrap: wrap;
+	}
+}
+@media (max-width: 360px) {
+	header div.main ul.right li a.button-1 {
+		/* width: 96%; */
+		display: none;
+	}
+	#spotlight div.major div.right div.play {
+		right: 18%;
+		top: -8%;
+		padding: 28px;
+		width: 23%;
+	}
+	#spotlight div.major div.left h1.herohead {
+		font-size: 30px;
+	}
+	header div.main ul.right li a.button-1 {
+		width: 176%;
+	}
+	#boost div.content div.right div.img_container_top_one {
+		width: 21%;
+	}
+	#boost div.content div.right div.img_container_top_two {
+		width: 20%;
+	}
+	#boost div.content div.right a {
+		width: 46%;
+	}
+	#spotlight div.major div.left div.search a.button {
+		left: 51%;
+	}
+	#boost div.content div.right div.img_container_top_three {
+		width: 18%;
+	}
+	#video ul.videomain li div.play {
+		padding: 22px;
+	}
+	#video ul.videomain li div.log {
+		width: 30%;
+		top: 49%;
+	}
+	#video ul.videomain li div.play2 {
+		left: 72%;
+		padding: 7%;
+	}
+	#video ul.videomain li div.log2 {
+		top: 51%;
+		padding: 3%;
+		left: 4%;
+	}
+	#video ul.videomain li div.play3 {
+		top: 3%;
+		padding: 22px;
+	}
+	#video ul.videomain li div.log3 {
+		top: 49%;
+		left: 3%;
+		width: 38%;
+	}
+	#feedback div.people div.people-2 div.bet {
+		top: 46%;
+	}
+	#marketing section.marketing-foot div.bar div.container {
+		width: 24%;
+		top: -24%;
+		left: 13%;
+	}
+	#marketing section.marketing-foot div.bar a.button {
+		width: 123px;
+	}
+	#studio ul li div.second p {
+		width: 72%;
+	}
+	#form div.left div.logo ul {
+		width: 142%;
+		flex-wrap: wrap;
+	}
+	#form div.right form input[type="checkbox"] {
+		margin-top: 1%;
+		width: 8%;
+	}
+	#form div.right {
+		width: 100%;
+	}
+	#form div.left div.logo ul {
+		width: 142%;
+	}
+}
